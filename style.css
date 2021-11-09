@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: orange;
+    text-align: center;
+    place-items: center;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    color: white;
+    background-color: orangered;
+    padding: 50px;
+}
+
+.contador {
+    background-color: black;
+    padding: 50px;
+}
+
+button {
+    background-color: white;
+    padding: 2px;
+    
+}
+
+.container p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100px;
+}
+
+.record h1{
+    font-size: 15px;
+}
