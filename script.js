@@ -10,11 +10,14 @@ number = number + 1
 
 document.getElementById('number').innerText = number
 
+if(number >= record) {
 
-document.getElementById('record').innerHTML = `Seu recorde de atrasos é ${record} dias`
-console.log(record)
+    document.getElementById('record').innerHTML = `Seu recorde de atrasos é ${record} dias`
+    console.log(record)
+    
+    record  = record + 1
 
-record  = record + 1
+}
 
 }
 
